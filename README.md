@@ -1,12 +1,20 @@
 # question
 ## 前端面试题库
 
+如有问题，欢迎指正
+
 ## 一、原生Js面试题
-```
 
  1、请列举出你所知道的http meathod。
  
+  GET HEAD POST DELETE OPTIONS
+  [ 参考地址]( https://www.jianshu.com/p/1a49a7b08ee0)
+ 
  2、请写出es6新增的第七个基本数据类型，并简要说明为什么array不是基本数据类型。
+ 
+   symbol [ 参考地址]( http://es6.ruanyifeng.com/#docs/symbol)
+  
+   基本类型和引用类型的区别[ 参考地址]( https://www.cnblogs.com/cxying93/p/6106469.html)
  
  3、请列举出transform属性可以应用的变换的属性名。
  
@@ -37,7 +45,7 @@
  16、简要构思一下怎么实现一个swiper组件。
  
  17、怎么判断当前元素是否在可视范围之内。
- 
+ ```
   const inViewport = (el) => {
     const rect = el.getBoundingClientRect()
 
@@ -46,8 +54,8 @@
       && rect.left > 0
       && rect.right < window.innerWidth
   }
+  ```
 
-```
 
 ## 二、vue
 ```
