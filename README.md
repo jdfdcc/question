@@ -32,9 +32,21 @@
  
  14、setTimeout和setInterval，并简要实现一下setInterval和clearInterval。
  
- 15、列举你所知道的优化页面效率的方法。
+ 15、列举你所知道的优化页面加载效率的方法(图片加载，js加载，css加载)。
  
  16、简要构思一下怎么实现一个swiper组件。
+ 
+ 17、怎么判断当前元素是否在可视范围之内。
+ 
+  const inViewport = (el) => {
+    const rect = el.getBoundingClientRect()
+
+    return rect.top > 0
+      && rect.bottom < window.innerHeight
+      && rect.left > 0
+      && rect.right < window.innerWidth
+  }
+
 ```
 
 二、vue
