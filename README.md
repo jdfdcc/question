@@ -5,18 +5,18 @@
 
 ## 一、原生Js面试题
 
- 1、请列举出你所知道的http meathod。
+ __1、请列举出你所知道的http meathod。__
  
   GET HEAD POST DELETE OPTIONS
   [ 参考地址]( https://www.jianshu.com/p/1a49a7b08ee0)
  
- 2、请写出es6新增的第七个基本数据类型，并简要说明为什么array不是基本数据类型。
+ __2、请写出es6新增的第七个基本数据类型，并简要说明为什么array不是基本数据类型。__
  
    symbol [ 参考地址]( http://es6.ruanyifeng.com/#docs/symbol)
   
    基本类型和引用类型的区别[ 参考地址]( https://www.cnblogs.com/cxying93/p/6106469.html)
  
- 3、请列举出transform属性可以应用的变换的属性名。
+ __3、请列举出transform属性可以应用的变换的属性名。__
  
  4、请说明call，apply，bind的异同点，并构想一下怎么实现bind方法。
  
