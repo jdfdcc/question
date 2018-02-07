@@ -1,7 +1,7 @@
 # question
-前端面试题库
+## 前端面试题库
 
-一、原生Js面试题
+## 一、原生Js面试题
 ```
 
  1、请列举出你所知道的http meathod。
@@ -49,7 +49,7 @@
 
 ```
 
-二、vue
+## 二、vue
 ```
 
   1、vue的算法属性是什么。
@@ -63,7 +63,7 @@
   6、vue-router的变换原理是什么。
   ```
 
-三、angularJs
+## 三、angularJs
 ```
  1、怎么封装一个组件，组件里面的分别是什么，
  
@@ -73,7 +73,7 @@
  ```
  
 
-四、css、sass、less
+## 四、css、sass、less
 ```
   1、怎么实现垂直居中。
   
@@ -83,15 +83,15 @@
   
  ```
 
-五、webpack，gulp，grunt
+## 五、webpack，gulp，grunt
 ```
   1、load是什么意思。
 ```
-六、node
+## 六、node
 
-七、h5
+## 七、h5
 ```
   1、有哪些特性。
 ```
-八、
+## 八、
 
