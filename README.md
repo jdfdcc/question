@@ -58,6 +58,8 @@ __17、怎么判断当前元素是否在可视范围之内。__
       && rect.right < window.innerWidth
   }
   ```
+  
+__18、理解new 关键字的实现原理。
 
 
 ## 二、vue
