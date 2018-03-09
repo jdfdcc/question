@@ -59,12 +59,23 @@ __17、怎么判断当前元素是否在可视范围之内。__
   }
   ```
   
-__18、理解new 关键字的实现原理。
-__19、获取字符串中的数字并返回数字数组
+__18、理解new 关键字的实现原理。__
+__19、获取字符串中的数字并返回数字数组。__
 ```
 str.match(/[0-9]{1,}/g)
 ```
+__20、原型链的继承有哪些。__
+```
+function fa() {}
+1、son.prototype = new fa()
+2、son.prototype = fa.prototype
+3、son.prototype = Object.create(fa.prototype);
 
+进阶
+function son(){
+ fa.apply(this)
+}
+```
 
 ## 二、vue
 ```
